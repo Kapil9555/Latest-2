@@ -30,6 +30,7 @@ function App() {
   return (
     <>
       <Router>
+        
         <Routes>
           <Route exact path="/" element={<Homepage/>} />
           <Route exact path="/register" element={<Signup/>}  />
